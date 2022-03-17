@@ -1,3 +1,41 @@
+/* stile di base della pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame {
+    width: 1280px;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+/* header */
+.banner {
+    background-color: rgb(229, 121, 230);
+    width: 100%;
+    height: 100px;
+}
+
+.img {
+    background-color: rgb(225, 214, 122);
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+}
+
+/* main */
+.article {
+    content: "";
+    display: block;
+    clear: both;
+    margin-top: 30px;
+    background-color: rgb(1, 134, 255);
+    width: 100%;
+    height: 300px;
+}
+
 .top {
     background-color: rgb(171, 207, 231);
     width: 100%;
