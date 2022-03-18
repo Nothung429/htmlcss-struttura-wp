@@ -7,25 +7,23 @@
 
 .frame {
     max-width: 1280px;
-    height: 200vh;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 /* header */
 .banner {
     background-color: rgb(229, 121, 230);
-    height: 160px;
+    height: 140px;
 }
 
 .img {
     background-color: rgb(225, 214, 122);
-    height: 440px;
-    margin-top: 30px;
+    height: 400px;
+    margin: 20px 0px;
 }
 
 /* main */
 .article {
-    margin-top: 30px;
     background-color: rgb(1, 134, 255);
     height: 600px;
 }
@@ -35,30 +33,30 @@
     height: 80px;
 }
 
-.colums {
-    height: 100%;
+.columns {
+    height: calc(100% - 100px);
+    padding-top: 20px;
 }
 
-.colums::after {
+.columns::after {
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
 
 .left, .middle, .right {
     float: left;
-    height: calc(100% - 120px);
+    height: 100%;
     background-color: rgb(171, 207, 231);
 }
 
 .left, .right {
     width: 20%;
-    margin: 20px 0px;
 }
 
 .middle {
     width: calc(60% - 40px);
-    margin: 20px 20px;
+    margin: 0px 20px;
 }
 
 .credits {
